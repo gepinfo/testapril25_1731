@@ -114,7 +114,7 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/testapril25_1731?authSource=admin"},{"name":"CAMUNDAPOD_URL","value":"http://127.0.0.1:8080"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"CAMUNDAURL","value":"http://127.0.0.1:8002"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8016"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8010"}
             ],
             "secrets": null,
             "mountPoints": [
@@ -415,9 +415,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8016",
+                    "containerPort": "8010",
                     "protocol": "tcp",
-                    "hostPort": "8016"
+                    "hostPort": "8010"
                 }
             ],
             "environmentFiles": null,

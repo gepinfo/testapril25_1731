@@ -235,7 +235,7 @@ services:
     image: systementry-1731
     container_name: systementry-1731
     ports: 
-      - 8016:8016
+      - 8010:8010
     env_file: .env
     depends_on:
       - mongo
